@@ -1,0 +1,52 @@
+.instaSection {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 50px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-title {
+  color: #171717;
+  font-size: 55px;
+  font-weight: 500 !important;
+  text-transform: uppercase;
+}
+
+.instaBottomSection {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+  width: 85%;
+  margin: auto;
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 840px) {
+  .blog {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 100px;
+    padding-bottom: 10px;
+  }
+  .blogTopSection h1 {
+    font-size: 2rem;
+  }
+
+  .blogTopSection p {
+    font-size: 15px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+
+  .blogBottomSection {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .blogBottomBox:nth-child(2) {
+    margin-top: 0px;
+  }
+}

@@ -1,0 +1,141 @@
+.pages-hero {
+  width: 100%;
+  height: 60vh;
+  position: relative;
+}
+
+.page-hero-parallax {
+  width: 100%;
+  height: 60vh;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.566), rgba(0, 0, 0, 0.6));
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.page-hero-parallax .custom-bg {
+  width: 100vw;
+  height: 60vh;
+}
+
+.page-hero-parallax .custom-bg img {
+  width: 100vw;
+  height: 60vh;
+  object-fit: cover;
+  object-position: top;
+}
+
+.pages-hero-text {
+  position: absolute;
+  left: 20px;
+  top: 45%;
+  transform: translateY(-50%);
+}
+
+.pages-hero-text h1 {
+  color: #fff;
+  font-size: 65px;
+  width: 80%;
+  line-height: 100px;
+  margin-top: 130px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px 5px black;
+}
+.pages-hero-text p {
+  color: #ffffff;
+  font-size: 14px;
+  width: 45%;
+  font-weight: 100;
+  font-family: sans-serif;
+  letter-spacing: 3px;
+  margin-bottom: 30px;
+}
+
+.shop-category-discount {
+  position: absolute;
+  right: 60px;
+  bottom: 20px;
+  text-align: center;
+}
+
+.shop-category-discount .discount-heading {
+  position: absolute;
+  left: -150px;
+  top: -60px;
+  rotate: -10deg;
+}
+.shop-category-discount .discount-heading h1 {
+  font-size: 60px;
+  font-weight: 900;
+  color: rgb(255, 0, 123);
+  margin-bottom: -30px;
+  animation: 1.4s scale-changer linear infinite;
+  animation-delay: 3s;
+}
+.shop-category-discount .discount-heading h2 {
+  font-size: 40px;
+  font-weight: 500;
+  color: #fff;
+  animation: 2s scale-changer linear infinite;
+  animation-delay: 1s;
+}
+
+.discount-box {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(0, 0, 0);
+  margin: auto;
+  margin-top: 10px;
+}
+.discount-box h1 {
+  font-size: 40px;
+  animation: 1s scale-changer linear infinite;
+  font-weight: 900;
+  color: rgb(255, 0, 123);
+}
+
+.discount-box p {
+  font-size: 20px;
+  color: #fff;
+  margin-top: -10px;
+  margin-bottom: -10px;
+}
+
+.shop-category-discount button {
+  width: 100px;
+  text-transform: uppercase;
+  height: 30px;
+  letter-spacing: 3px;
+  font-size: 9px;
+  font-weight: 600;
+  font-family: sans-serif;
+  transition: 0.7s;
+  background-color: #000;
+  color: rgb(255, 0, 123);
+  margin-right: 60px;
+
+  margin-top: 20px;
+}
+
+@keyframes scale-changer {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.07);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

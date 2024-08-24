@@ -1,0 +1,27 @@
+.gallery {
+  width: 100%;
+  height: 90vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4px;
+  margin: 100px auto;
+}
+
+.left-gallery-img,
+.right-gallery-img {
+  width: 100%;
+  height: 100%;
+}
+
+.right-gallery-img {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 4px;
+}
+
+.right-gallery-img-container {
+  width: 100%;
+  height: 100%;
+}

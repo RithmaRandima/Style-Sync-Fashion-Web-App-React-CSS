@@ -1,0 +1,122 @@
+.item {
+  width: 100%;
+  height: 420px;
+  position: relative;
+  overflow: hidden;
+}
+.item img {
+  width: 100%;
+  height: 330px;
+  object-fit: cover;
+  transition: 0.7s;
+}
+
+.item-overlay {
+  position: absolute;
+  width: 100%;
+  height: 330px;
+  background: #00000028;
+  top: 0;
+  left: 0;
+}
+.img-box-icon-container {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: 0.7s;
+  opacity: 0;
+}
+.img-box-icon-container button:nth-child(2),
+.img-box-icon-container button:nth-child(3) {
+  background: #fff;
+  text-transform: uppercase;
+  height: 35px;
+  width: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-box-icon-container button:nth-child(1) {
+  background: #fff;
+  text-transform: uppercase;
+  height: 35px;
+  width: 160px;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.item .item-name {
+  font-weight: 700;
+  font-size: 20px;
+  font-style: italic;
+  text-align: center;
+  margin-top: 10px;
+  text-align: right;
+  font-family: "Edu VIC WA NT Beginner", cursive;
+  font-optical-sizing: auto;
+}
+
+.item-prices {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 5px;
+  margin-left: 0px;
+  font-optical-sizing: auto;
+}
+.item-price-new {
+  font-family: sans-serif !important;
+  font-weight: 900 !important;
+  color: #000000;
+  font-size: 24px;
+  font-style: italic;
+}
+.item-price-old {
+  color: #8c8c8c;
+  font-size: 15px;
+  font-weight: 700;
+  color: rgb(255, 0, 123);
+  text-decoration: line-through;
+}
+
+.item:hover img {
+  transform: scale(1.03);
+  transition: 0.6s;
+}
+
+.item:hover .img-box-icon-container {
+  top: 65%;
+  opacity: 1;
+}
+
+@media screen and (min-width: 1000px) {
+  .shop-category-products {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .shop-category-products {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .item {
+    width: 95%;
+    margin: auto;
+  }
+  .item img {
+    object-position: top;
+  }
+
+  .item .item-name {
+    font-size: 25px;
+  }
+}

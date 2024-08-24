@@ -1,0 +1,35 @@
+.new-collection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  height: 100vh;
+}
+
+.section-title {
+  color: #171717;
+  font-size: 55px;
+  font-weight: 500 !important;
+  text-transform: capitalize !important;
+}
+.section-subtitle {
+  color: #171717;
+  font-size: 15px;
+  margin-bottom: 20px;
+  font-weight: lighter;
+  letter-spacing: 2px;
+}
+.new-collection hr {
+  width: 200px;
+  height: 6px;
+  border-radius: 10px;
+  background: #252525;
+}
+
+.collections {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  width: 95%;
+  margin: 30px auto;
+}

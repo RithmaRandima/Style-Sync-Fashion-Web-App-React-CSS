@@ -1,0 +1,53 @@
+.testimonial-box {
+  width: 100%;
+  margin: 5px;
+  text-align: center;
+  position: relative;
+  padding-top: 50px;
+}
+
+.testiUserSection {
+  margin-top: 20px;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.testiQuoteMark {
+  font-size: 14rem;
+  color: #1a1a1a3c;
+  position: absolute;
+  left: 100px;
+  top: 10px;
+}
+.testiQuote {
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  line-height: 40px;
+}
+
+.testiUserDetails {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.testiUserName {
+  font-size: 1.3rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+  color: #000;
+}
+
+.testiStarContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  gap: 10px;
+}

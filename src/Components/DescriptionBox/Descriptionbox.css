@@ -1,0 +1,45 @@
+.descriptionbox {
+  margin: 50px 70px;
+}
+
+.descriptionbox-navigator {
+  display: flex;
+}
+
+.descriptionbox-nav-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 16px;
+  width: 171px;
+  height: 70px;
+  border: 1px solid #d0d0d0;
+}
+.descriptionbox-nav-box.fade {
+  background-color: #e7e7e7;
+  color: #555;
+}
+
+.descriptionbox-description {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border: 1px solid #d0d0d0;
+  padding: 48px;
+  padding-bottom: 70px;
+}
+
+.descriptionbox-description p {
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 24px;
+  color: #555555d0;
+}
+
+.descriptionbox-description ul {
+  list-style: disc;
+  margin-left: 20px;
+  font-size: 14px;
+  font-weight: 500;
+}

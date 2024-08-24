@@ -1,0 +1,42 @@
+.instaBox {
+  width: 95%;
+  margin: auto;
+  height: 190px;
+  cursor: pointer;
+  position: relative;
+}
+
+.instaImgContainer {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.instaImgContainer img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 1s;
+}
+
+.middle-icon-section {
+  position: absolute;
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.349);
+  left: 0;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.middle-icon {
+  font-size: 30px;
+  opacity: 0;
+}
+
+.instaBox:hover .middle-icon {
+  opacity: 1;
+}

@@ -1,0 +1,121 @@
+img {
+  width: 50px;
+}
+.navbar {
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 1px 1px rgb(255, 255, 255);
+  padding: 20px 50px;
+  background: transparent;
+  color: #fff;
+}
+.active-navbar {
+  background-color: rgba(255, 255, 255, 0.9);
+  transition: 0.1s;
+  color: black;
+}
+
+.nav-logo p {
+  font-weight: 900;
+  font-size: 20px;
+  text-shadow: 1px 1px 5px black;
+  color: #fff;
+}
+.nav-logo p span {
+  font-size: 24px;
+  color: rgb(255, 0, 123);
+  font-weight: 700;
+  text-shadow: 1px 1px 3px black;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 50px;
+  color: #626262;
+  font-size: 20px;
+  font-weight: 500;
+}
+.nav-menu li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  cursor: pointer;
+  /* font-weight: bold; */
+  color: #fff !important;
+  font-size: 16px;
+  letter-spacing: 3px;
+}
+.active-navbar li {
+  color: black !important;
+}
+
+.active-navbar li hr {
+  background-color: black !important;
+}
+
+.nav-menu li hr {
+  border: none;
+  width: 80%;
+  height: 3px;
+  border-radius: 10px;
+  background-color: #fff;
+  background-color: rgb(255, 0, 123);
+
+  /* margin: 0;
+  padding: 0; */
+}
+
+.nav-login-cart {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.nav-login-cart button {
+  width: 80px;
+  text-transform: uppercase;
+  height: 27px;
+  letter-spacing: 3px;
+  font-size: 10px;
+  font-weight: 600;
+  font-family: sans-serif;
+  transition: 0.7s;
+  background-color: #fff;
+  color: #000;
+}
+
+.nav-login-cart button:hover {
+  box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.744);
+  transform: translateY(-2px);
+}
+
+.active-navbar .nav-login-cart button {
+  background-color: black !important;
+  color: white !important;
+}
+
+.cart-btn {
+  font-size: 30px;
+}
+
+.nav-cart-count {
+  width: 22px;
+  height: 22px;
+  background-color: #ff0000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -30px;
+  border-radius: 20px;
+  margin-left: -40px;
+  z-index: 1;
+  font-size: 13px;
+  color: #fff;
+  font-weight: 500;
+}
