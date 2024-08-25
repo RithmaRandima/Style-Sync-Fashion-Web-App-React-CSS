@@ -53,8 +53,25 @@
   }
 }
 
+@media screen and (max-width: 850px) {
+  .shop-category-products {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 @media screen and (max-width: 600px) {
   .shop-category-products {
     grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .shop-category-index-sort {
+    margin: 20px;
+  }
+  .shop-category-sort {
+    padding: 3px 10px;
+    gap: 5px;
+    font-size: 10px;
   }
 }

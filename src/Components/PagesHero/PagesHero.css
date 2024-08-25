@@ -124,7 +124,6 @@
   background-color: #000;
   color: rgb(255, 0, 123);
   margin-right: 60px;
-
   margin-top: 20px;
 }
 
@@ -137,5 +136,107 @@
   }
   100% {
     transform: scale(1);
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .pages-hero {
+    height: 70vh;
+    margin-bottom: 45px;
+  }
+
+  .page-hero-parallax {
+    height: 70vh;
+  }
+  .page-hero-parallax .custom-bg {
+    height: 70vh;
+  }
+
+  .page-hero-parallax .custom-bg img {
+    height: 70vh;
+  }
+
+  .pages-hero-text {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+  }
+
+  .pages-hero-text h1 {
+    font-size: 60px;
+    width: 100%;
+    line-height: 0px;
+    margin-top: 0px;
+    margin-bottom: 45px;
+  }
+  .pages-hero-text p {
+    font-size: 16px;
+    width: 80%;
+    margin: auto;
+  }
+
+  .shop-category-discount button {
+    display: none;
+  }
+
+  .shop-category-discount {
+    right: 50px;
+    bottom: -20px;
+  }
+
+  .shop-category-discount .discount-heading {
+    position: absolute;
+    left: -100px;
+    top: -55px;
+    rotate: -10deg;
+  }
+
+  .discount-box h1 {
+    font-size: 40px;
+  }
+
+  .discount-box p {
+    font-size: 20px;
+    margin-top: -5px;
+    margin-bottom: -5px;
+  }
+  .shop-category-discount .discount-heading h1 {
+    font-size: 50px;
+    margin-bottom: -20px;
+  }
+  .shop-category-discount .discount-heading h2 {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .pages-hero-text h1 {
+    font-size: 55px;
+    width: 100%;
+  }
+  .pages-hero-text p {
+    font-size: 14px;
+    width: 95%;
+  }
+
+  .shop-category-discount {
+    right: 20px;
+    bottom: -30px;
+  }
+
+  .discount-box {
+    width: 120px;
+    height: 120px;
+  }
+  .discount-box h1 {
+    font-size: 34px;
+  }
+
+  .discount-box p {
+    font-size: 17px;
+    margin-top: -5px;
+    margin-bottom: -5px;
   }
 }
