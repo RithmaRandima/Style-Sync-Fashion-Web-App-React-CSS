@@ -112,7 +112,8 @@
 .footer-bottom p span {
   color: rgb(255, 0, 123);
 }
-@media screen and (max-width: 640px) {
+
+@media screen and (max-width: 1000px) {
   .footer-top {
     grid-template-columns: 1fr;
     width: 75%;
@@ -121,6 +122,8 @@
 
   .footer-top-content-box:nth-child(1) {
     grid-column: span 1;
+    width: 80%;
+    margin: auto;
   }
 
   .footer-top-content-box:nth-child(1) p {
@@ -132,7 +135,7 @@
   }
 
   .footer-social-section {
-    width: 50%;
+    width: 100%;
     margin: 13px auto;
   }
 
@@ -151,5 +154,11 @@
 
   .footer-bottom {
     display: none;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .footer-top-content-box:nth-child(1) {
+    width: 100%;
   }
 }
