@@ -79,3 +79,18 @@
   font-size: 14px;
   font-weight: 500;
 }
+
+@media screen and (max-width: 840px) {
+  .login-container {
+    width: 380px;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%, -70%);
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .login-container {
+    width: 320px;
+  }
+}
