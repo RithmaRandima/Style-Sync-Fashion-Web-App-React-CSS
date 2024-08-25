@@ -1,6 +1,5 @@
 .testimonial-box {
   width: 100%;
-  margin: 5px;
   text-align: center;
   position: relative;
   padding-top: 50px;
@@ -50,4 +49,26 @@
   justify-content: center;
   font-size: 18px;
   gap: 10px;
+}
+
+@media screen and (max-width: 1050px) {
+  .testiQuoteMark {
+    font-size: 8rem;
+    color: #1a1a1a23;
+  }
+
+  .testiUserSection {
+    margin-top: 0px;
+  }
+  .testiQuote {
+    font-size: 1rem;
+  }
+
+  .testiUserName {
+    font-size: 1rem;
+  }
+
+  .testiStarContainer {
+    font-size: 10px;
+  }
 }
