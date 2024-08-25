@@ -3,6 +3,7 @@
   height: 420px;
   position: relative;
   overflow: hidden;
+  margin-bottom: 20px !important;
 }
 .item img {
   width: 100%;

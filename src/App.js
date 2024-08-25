@@ -15,7 +15,7 @@ import NewsLetter from "./Components/NewsLetter/NewsLetter";
 
 function App() {
   return (
-    <div>
+    <div className="app">
       <BrowserRouter>
         <Navbar />
 

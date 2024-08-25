@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 100vh;
+  height: 100%;
   margin-top: 40px;
   font-family: sans-serif;
 }
@@ -21,7 +21,7 @@
 }
 .popular hr {
   width: 200px;
-  height: 6px;
+  height: 2px;
   border-radius: 10px;
   background: #252525;
 }
@@ -32,4 +32,38 @@
   gap: 10px;
   width: 95%;
   margin: 30px auto;
+}
+
+@media screen and (min-width: 1000px) {
+  .popular-item {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .popular-item {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .section-title {
+    font-size: 45px !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .popular-item {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .section-title {
+    color: #171717;
+    font-size: 40px !important;
+    margin-bottom: 5px;
+  }
+  .section-subtitle {
+    color: black;
+    font-size: 13px !important;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+  }
 }

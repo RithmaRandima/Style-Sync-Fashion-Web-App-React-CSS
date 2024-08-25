@@ -109,3 +109,47 @@
 .blogBottomBox:hover img {
   transform: scale(1.05);
 }
+
+@media screen and (max-width: 1000px) {
+  .boxBoxTitle {
+    font-size: 1.3rem;
+    margin: 10px 0;
+  }
+
+  .blogImgContainer {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+  }
+  .blogBottomBox:nth-child(2) {
+    width: 90%;
+  }
+
+  .blogBottomBox:nth-child(2) .blogImgContainer {
+    height: 200px;
+    margin-top: 0px;
+  }
+
+  .blogBottomBox:nth-child(3) .blogImgContainer {
+    height: 200px;
+  }
+
+  .blogBottomBox:nth-child(4) .blogImgContainer {
+    height: 200px;
+    margin-top: 0px;
+  }
+
+  .blogBottomBox:nth-child(5) .blogImgContainer {
+    height: 200px;
+  }
+
+  .blogBottomBox:nth-child(7) .blogImgContainer {
+    height: 200px;
+    margin-top: 1px;
+  }
+
+  .blogBottomBox:nth-child(8) .blogImgContainer {
+    height: 200px;
+    margin-top: 0px;
+  }
+}

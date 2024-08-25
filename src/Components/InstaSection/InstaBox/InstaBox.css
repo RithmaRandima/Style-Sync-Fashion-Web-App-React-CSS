@@ -40,3 +40,13 @@
 .instaBox:hover .middle-icon {
   opacity: 1;
 }
+
+@media screen and (max-width: 1300px) {
+  .instaBox {
+    width: 100%;
+    margin: auto;
+    height: 100px;
+    cursor: pointer;
+    position: relative;
+  }
+}

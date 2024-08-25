@@ -132,6 +132,10 @@
 }
 
 @media screen and (max-width: 1000px) {
+  .aboutUsContainer {
+    width: 100%;
+    height: 100%;
+  }
 }
 
 @media screen and (max-width: 600px) {

@@ -26,4 +26,12 @@
 
 .serviceBox:hover .serviceBoxIcon {
   transform: scale(1.2);
+  color: rgb(255, 0, 123);
+}
+
+@media screen and (max-width: 1000px) {
+  .serviceBoxIcon {
+    font-size: 40px;
+    transition: 0.5s;
+  }
 }
