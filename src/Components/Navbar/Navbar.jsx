@@ -22,11 +22,20 @@ const Navbar = () => {
   return (
     <div className={color === true ? "navbar active-navbar" : "navbar"}>
       {/* logo */}
-      <div className="nav-logo">
-        <p>
-          style<span>sync.</span>
-        </p>
-      </div>
+      <Link
+        to="/"
+        onClick={() => {
+          setmenu("shop");
+          window.scrollTo(0, 0);
+        }}
+      >
+        <div className="nav-logo">
+          <p>
+            style<span>sync.</span>
+          </p>
+        </div>
+      </Link>
+
       <ul className="nav-menu">
         <li
           onClick={() => {
