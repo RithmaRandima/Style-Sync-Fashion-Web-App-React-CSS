@@ -11,7 +11,6 @@ import Footer from "./Components/Footer/Footer";
 import mens_banner from "./Assets/mens_banner.jpeg";
 import womens_banner from "./Assets/womens_banner.jpeg";
 import kids_banner from "./Assets/kids_banner.jpeg";
-import NewsLetter from "./Components/NewsLetter/NewsLetter";
 
 function App() {
   return (
@@ -61,7 +60,6 @@ function App() {
           <Route path="/login" element={<LoginSignup />} />
         </Routes>
 
-        <NewsLetter />
         <Footer />
       </BrowserRouter>
     </div>

@@ -24,6 +24,7 @@ const Shop = () => {
       <Testimonials />
       <Blog />
       <InstaSection />
+      <NewsLetter />
     </div>
   );
 };
