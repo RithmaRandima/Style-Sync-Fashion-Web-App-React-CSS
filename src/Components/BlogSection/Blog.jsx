@@ -1,13 +1,13 @@
 import React from "react";
 import "./Blog.css";
-import img1 from "../../Assets/blog-1.jpg";
-import img2 from "../../Assets/blog-2.jpg";
-import img3 from "../../Assets/blog-3.jpg";
-import img4 from "../../Assets/blog-4.jpg";
-import img5 from "../../Assets/blog-5.jpg";
-import img6 from "../../Assets/blog-6.jpg";
-import img7 from "../../Assets/blog-7.jpg";
-import img8 from "../../Assets/blog-8.jpg";
+import img1 from "../../Assets/blog-1.jpeg";
+import img2 from "../../Assets/blog-2.jpeg";
+import img3 from "../../Assets/blog-3.jpeg";
+import img4 from "../../Assets/blog-4.jpeg";
+import img5 from "../../Assets/blog-5.jpeg";
+import img6 from "../../Assets/blog-6.jpeg";
+import img7 from "../../Assets/blog-7.jpeg";
+import img8 from "../../Assets/blog-8.jpeg";
 import BlogBox from "./BlogBox/BlogBox";
 
 const Blog = () => {

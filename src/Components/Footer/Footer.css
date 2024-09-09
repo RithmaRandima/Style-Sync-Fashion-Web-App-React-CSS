@@ -3,7 +3,7 @@
   width: 100%;
   height: 100%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.686), rgba(0, 0, 0, 0.762)),
-    url("../../Assets/footer-bg.jpg");
+    url("../../Assets/footer-bg.jpeg");
   background-size: cover;
   background-position: center;
 }

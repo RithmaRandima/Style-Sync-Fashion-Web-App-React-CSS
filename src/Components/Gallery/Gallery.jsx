@@ -1,9 +1,9 @@
 import React from "react";
 import "./Gallery.css";
 import GalleryImage from "./GalleryImage/GalleryImage";
-import img1 from "../../Assets/gallery-1.jpg";
-import img2 from "../../Assets/gallery-2.jpg";
-import img3 from "../../Assets/gallery-3.jpg";
+import img1 from "../../Assets/gallery-1.jpeg";
+import img2 from "../../Assets/gallery-2.jpeg";
+import img3 from "../../Assets/gallery-3.jpeg";
 
 const Gallery = () => {
   return (

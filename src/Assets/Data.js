@@ -1,7 +1,7 @@
 import p1_img from "./item-1.jpeg";
 import p2_img from "./item-19.webp";
 import p3_img from "./item-26.jpg";
-import p4_img from "./item-39.jpg";
+import p4_img from "./item-39.jpeg";
 
 let data_product = [
   {

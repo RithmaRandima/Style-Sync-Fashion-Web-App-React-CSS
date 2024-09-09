@@ -1,6 +1,6 @@
-import p1_img from "./item-41.jpg";
+import p1_img from "./item-41.jpeg";
 import p2_img from "./item-6.jpeg";
-import p3_img from "./item-37.jpg";
+import p3_img from "./item-37.jpeg";
 import p4_img from "./item-12.jpeg";
 
 let new_collections = [

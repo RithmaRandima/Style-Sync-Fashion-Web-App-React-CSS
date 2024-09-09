@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import CartItems from "../Components/CartItems/CartItems";
 import PagesHero from "../Components/PagesHero/PagesHero";
-import img1 from "../Assets/blog-6.jpg";
+import img1 from "../Assets/blog-6.jpeg";
 
 const Cart = () => {
   useEffect(() => {

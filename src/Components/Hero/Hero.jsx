@@ -1,6 +1,6 @@
 import React from "react";
 import "./Hero.css";
-import hero_bg from "../../Assets/hero-bg.jpg";
+import hero_bg from "../../Assets/hero-bg.jpeg";
 import { Background, Parallax } from "react-parallax";
 
 const Hero = () => {

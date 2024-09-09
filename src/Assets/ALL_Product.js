@@ -33,13 +33,13 @@ import img32 from "./item-32.jpg";
 import img33 from "./item-33.jpeg";
 import img34 from "./item-34.webp";
 import img35 from "./item-35.webp";
-import img36 from "./item-36.jpg";
-import img37 from "./item-37.jpg";
-import img38 from "./item-38.jpg";
-import img39 from "./item-39.jpg";
-import img40 from "./item-40.jpg";
-import img41 from "./item-41.jpg";
-import img42 from "./item-42.jpg";
+import img36 from "./item-36.jpeg";
+import img37 from "./item-37.jpeg";
+import img38 from "./item-38.jpeg";
+import img39 from "./item-39.jpeg";
+import img40 from "./item-40.jpeg";
+import img41 from "./item-41.jpeg";
+import img42 from "./item-42.jpeg";
 
 let all_product = [
   {

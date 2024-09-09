@@ -1,9 +1,9 @@
 import React from "react";
 import "./About.css";
-import img1 from "../../Assets/womens_banner.jpg";
-import img2 from "../../Assets/item-41.jpg";
-import img3 from "../../Assets/item-38.jpg";
-import img4 from "../../Assets/mens_banner.jpg";
+import img1 from "../../Assets/womens_banner.jpeg";
+import img2 from "../../Assets/item-41.jpeg";
+import img3 from "../../Assets/item-38.jpeg";
+import img4 from "../../Assets/mens_banner.jpeg";
 
 const About = () => {
   return (

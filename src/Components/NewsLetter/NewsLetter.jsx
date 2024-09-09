@@ -1,7 +1,7 @@
 import React from "react";
 import "./NewsLetter.css";
 import { Background, Parallax } from "react-parallax";
-import hero_bg from "../../Assets/newsletter-bg.jpg";
+import hero_bg from "../../Assets/newsletter-bg.jpeg";
 
 const NewsLetter = () => {
   return (

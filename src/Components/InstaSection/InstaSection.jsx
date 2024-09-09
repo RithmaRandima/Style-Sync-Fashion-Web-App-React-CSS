@@ -1,10 +1,10 @@
 import React from "react";
 import "./InstaSection.css";
-import img1 from "../../Assets/item-37.jpg";
-import img2 from "../../Assets/kids_banner.jpg";
-import img3 from "../../Assets/blog-4.jpg";
-import img4 from "../../Assets/gallery-2.jpg";
-import img5 from "../../Assets/mens_banner.jpg";
+import img1 from "../../Assets/item-37.jpeg";
+import img2 from "../../Assets/kids_banner.jpeg";
+import img3 from "../../Assets/blog-4.jpeg";
+import img4 from "../../Assets/gallery-2.jpeg";
+import img5 from "../../Assets/mens_banner.jpeg";
 import InstaBox from "./InstaBox/InstaBox";
 
 const InstaSection = () => {
