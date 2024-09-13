@@ -35,7 +35,7 @@
   grid-template-columns: repeat(5, 1fr);
   gap: 10px;
   width: 100%;
-  padding: 70px 0;
+  /* padding: 70px 0; */
   align-items: flex-start;
   max-width: 1000px;
 }
@@ -67,8 +67,8 @@
 
 .footer-social-section {
   display: flex;
-  display: flex;
   align-items: center;
+  justify-content: flex-start;
   margin: 10px auto;
   margin: auto;
   gap: 30px;
@@ -114,6 +114,13 @@
 }
 
 @media screen and (max-width: 1000px) {
+  .footer {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.686),
+        rgba(0, 0, 0, 0.762)
+      ),
+      url("../../Assets/product-hero.jpeg");
+  }
   .footer-top {
     grid-template-columns: 1fr;
     width: 75%;
@@ -130,13 +137,10 @@
     width: 100%;
   }
 
-  .footer-top-content-box-3 {
-    display: none;
-  }
-
   .footer-social-section {
     width: 100%;
     margin: 13px auto;
+    justify-content: center;
   }
 
   .footer-container {
@@ -150,10 +154,6 @@
   }
   .left .location .top {
     font-size: 1rem;
-  }
-
-  .footer-bottom {
-    display: none;
   }
 }
 

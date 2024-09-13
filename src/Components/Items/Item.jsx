@@ -7,7 +7,7 @@ import { LuScan } from "react-icons/lu";
 const Item = (props) => {
   return (
     <Link to={`/product/${props.id}`}>
-      <div className="item">
+      <div className="item mx-2 md:mx-0">
         <img onClick={() => {}} src={props.image} alt="" />
 
         {/* item overlay */}

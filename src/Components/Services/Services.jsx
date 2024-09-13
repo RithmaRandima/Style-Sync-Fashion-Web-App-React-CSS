@@ -1,27 +1,54 @@
 import React from "react";
 import "./Services.css";
 import ServiceBox from "./ServiceBox/ServiceBox";
-import { FaTruckPlane } from "react-icons/fa6";
-import { FaClipboardList, FaGift } from "react-icons/fa";
+import { serviceData } from "../../Data/ServiceData";
+
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
 
 const Services = () => {
+  var settings = {
+    arrows: false,
+    dots: false,
+    infinite: true,
+    autoplay: true,
+    autoplaySpeed: 5000,
+    speed: 1600,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    initialSlide: 0,
+  };
+
   return (
     <div className="servicesSection">
-      <ServiceBox
-        title="Quick Delivery"
-        description="Inside City delivery within 5 days"
-        icon={<FaTruckPlane />}
-      />
-      <ServiceBox
-        title="Pick Up In Store"
-        description="We have option of pick up in store."
-        icon={<FaClipboardList />}
-      />
-      <ServiceBox
-        title="Special Packaging"
-        description="Our packaging is best for products."
-        icon={<FaGift />}
-      />
+      <div className="hidden md:grid w-[100%] b-black grid-cols-3 place-items-center gap-[30px]">
+        {serviceData.map((service) => {
+          return (
+            <ServiceBox
+              key={service.id}
+              title={service.title}
+              description={service.description}
+              icon={service.icon}
+            />
+          );
+        })}
+      </div>
+
+      <div className="md:hidden  w-[100%] px-2">
+        <Slider {...settings}>
+          {serviceData.map((service) => {
+            return (
+              <ServiceBox
+                key={service.id}
+                title={service.title}
+                description={service.description}
+                icon={service.icon}
+              />
+            );
+          })}
+        </Slider>
+      </div>
     </div>
   );
 };

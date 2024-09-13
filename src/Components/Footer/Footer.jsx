@@ -12,7 +12,8 @@ const Footer = () => {
   return (
     <div className="footer">
       <div className="footer-container">
-        <div className="footer-top">
+        <div className="footer-top md:py-[70px] py-[20px]">
+          {/* col-01 */}
           <div className="footer-top-content-box">
             {/* logo */}
             <div className="nav-logo">
@@ -25,7 +26,7 @@ const Footer = () => {
               debitis, autem laudantium cupiditate repudiandae cumque dolorum
               nobis quos totam maxime.
             </p>
-            <div className="footer-social-section">
+            <div className="mx-auto footer-social-section">
               <div className="social-icon-container">
                 <FaFacebookF />
               </div>
@@ -44,7 +45,8 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="footer-top-content-box">
+          {/* col-02 */}
+          <div className="hidden md:block footer-top-content-box">
             <h5>Resources</h5>
             <p>Terms & Condition</p>
             <p>Privacy Policy</p>
@@ -52,7 +54,8 @@ const Footer = () => {
             <p>News</p>
           </div>
 
-          <div className="footer-top-content-box footer-top-content-box-3">
+          {/* col-03 */}
+          <div className="hidden md:block footer-top-content-box">
             <h5>Support</h5>
             <p>FAQs</p>
             <p>Proof of Payments</p>
@@ -60,6 +63,7 @@ const Footer = () => {
             <p>Home</p>
           </div>
 
+          {/* col-04 */}
           <div className="footer-top-content-box">
             <h5>Contact</h5>
             <p>
@@ -70,12 +74,12 @@ const Footer = () => {
             <p>E-mail: info@zerogravity.com</p>
           </div>
         </div>
-
+        {/* copyright */}
         <div className="footer-bottom">
           <p>
             &#169; <span>stylesync.</span> Cafe 2024 &#183; All Right Reserved.
           </p>
-          <div style={{ display: "flex" }}>
+          <div className="hidden md:flex">
             <p>Privacy Policy</p>
             <p>Terms of Use</p>
           </div>

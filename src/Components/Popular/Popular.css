@@ -27,7 +27,6 @@
 }
 
 .popular-item {
-  display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 10px;
   width: 95%;
@@ -50,10 +49,6 @@
 }
 
 @media screen and (max-width: 600px) {
-  .popular-item {
-    grid-template-columns: repeat(1, 1fr);
-  }
-
   .section-title {
     color: #171717;
     font-size: 40px !important;

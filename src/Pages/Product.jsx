@@ -7,6 +7,8 @@ import Descriptionbox from "../Components/DescriptionBox/Descriptionbox";
 import RelatedProduct from "../Components/RelatedProduct/RelatedProduct";
 import PagesHero from "../Components/PagesHero/PagesHero";
 
+import img1 from "../Assets/blog-6.jpeg";
+
 const Product = () => {
   const { all_product } = useContext(ShopContext);
   const { productId } = useParams();
@@ -18,7 +20,7 @@ const Product = () => {
 
   return (
     <div>
-      <PagesHero title="Shop Product" />
+      <PagesHero title="Shop Product" img={img1} />
       <Breadcrum product={product} />
       <ProductDisplay product={product} />
       <Descriptionbox />

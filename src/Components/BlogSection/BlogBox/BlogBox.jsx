@@ -13,11 +13,7 @@ const BlogBox = (props) => {
       </div>
       <div className="blogMiddleInfo">
         <h1 className="boxBoxTitle">{props.title}</h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
-          architecto sequi consequuntur in debitis dolor sit amet consectetur{" "}
-          {props.description}
-        </p>
+        <p>{props.description}</p>
       </div>
       <div className="blogBottomBtnContainer">
         <button className="blogReadMoreBtn">REad More</button>
