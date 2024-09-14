@@ -7,8 +7,9 @@ img {
   width: 100%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   box-shadow: 0 1px 1px rgb(255, 255, 255);
-  padding: 20px 50px;
+  padding: 20px 30px;
   background: transparent;
   color: #fff;
 }
@@ -32,10 +33,10 @@ img {
 }
 
 .nav-menu {
-  display: flex;
+  /* display: flex; */
   align-items: center;
   list-style: none;
-  gap: 50px;
+  /* gap: 50px; */
   color: #626262;
   font-size: 20px;
   font-weight: 500;
